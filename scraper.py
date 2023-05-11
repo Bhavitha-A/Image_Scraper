@@ -100,8 +100,10 @@ def search_and_download(search_term: str, driver_path: str, target_path='./image
 # Step 5 : put it inside the same folder of this code
 
 
-DRIVER_PATH = r'chromedriver.exe'
-search_term = 'trump'
-# num of images you can pass it from here  by default it's 10 if you are not passing
+DRIVER_PATH = r"C:\Users\user\Downloads\chromedriver.exe"
+#r'chromedriver.exe' 
+search_term = 'heart'
+# num of images you can pass it from here  by default it's 10 if you are not pass
+
 #number_images = 50
 search_and_download(search_term=search_term, driver_path=DRIVER_PATH, number_images=50)
